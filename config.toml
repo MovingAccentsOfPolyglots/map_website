@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://movingaccentsofpolyglots.netlify.com/"
 title = "Moving Accents Of Polyglots (MAP)"
 theme = "ghostwriter"
 languageCode = "en-us"
