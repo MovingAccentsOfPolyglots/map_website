@@ -1,0 +1,65 @@
+baseurl = "https://example.com/"
+title = "Moving Accents Of Polyglots (MAP)"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "MAP"
+disqusShortname = "XXX"
+googleAnalytics = "XXX"
+
+[Privacy]
+
+[Privacy.disqus]
+    disable = true
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
+[Author]
+    name = "MAP"
+    profile = "https://osf.io/87utb/"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Moving Accents Of Polyglots (MAP)"
+    description = "Longitudinal study on polyglots living abroad."
+    osf = "https://osf.io/87utb/"
+    github = "https://github.com/MovingAccentsOfPolyglots"
+    email = "movingaccentsofpolyglots@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+    
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "Analyses"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+
